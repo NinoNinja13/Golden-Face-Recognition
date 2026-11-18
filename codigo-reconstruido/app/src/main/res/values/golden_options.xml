@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="gf_language">Idioma</string>
+    <string name="gf_cancel">Cancelar</string>
+    <string name="gf_toggle_help">Mostrar ou ocultar explicações</string>
+    <string name="gf_options_title">Opções</string>
+    <string name="gf_camera_off">Golden: desligar câmera em segundo plano</string>
+    <string name="gf_camera_on">Golden: ligar câmera em segundo plano</string>
+    <string name="gf_camera_choice">Golden: câmera em segundo plano (%1$s)</string>
+    <string name="gf_front">frontal</string>
+    <string name="gf_back">traseira</string>
+    <string-array name="gf_options">
+        <item>Ver rostos cadastrados</item>
+        <item>Atualizar lista de rostos</item>
+        <item>Salvar rostos</item>
+        <item>Carregar rostos</item>
+        <item>Apagar todos os rostos</item>
+        <item>Cadastrar ou importar foto</item>
+        <item>Parâmetros de reconhecimento</item>
+        <item>Modo desenvolvedor</item>
+        <item>Golden: janelas flutuantes</item>
+        <item>Câmera em segundo plano</item>
+        <item>Reativar prévia para cadastro</item>
+        <item>Escolher câmera em segundo plano</item>
+        <item>Excluir rostos selecionados</item>
+        <item>Retomar após reinício</item>
+        <item>Continuar com tela desligada</item>
+        <item>Idioma</item>
+        <item>Desativar otimização de bateria</item>
+    </string-array>
+    <string-array name="gf_option_help">
+        <item>Mostra os nomes atualmente carregados.</item>
+        <item>Escolhe quais rostos permanecem na lista carregada.</item>
+        <item>Salva os rostos carregados no armazenamento do app.</item>
+        <item>Carrega os rostos salvos no armazenamento do app.</item>
+        <item>Apaga todos os rostos cadastrados após confirmação.</item>
+        <item>Abre o cadastro guiado, com câmera ou foto da galeria.</item>
+        <item>Ajusta o limite de distância usado no reconhecimento.</item>
+        <item>Mostra informações adicionais para ajuste de reconhecimento.</item>
+        <item>Configura a exibição de nomes em janela flutuante.</item>
+        <item>Inicia ou desliga a câmera em segundo plano.</item>
+        <item>Reativa a prévia quando a câmera em segundo plano está desligada.</item>
+        <item>Escolhe a câmera frontal ou traseira para o serviço.</item>
+        <item>Escolhe quais rostos cadastrados excluir.</item>
+        <item>Configura a retomada após o aparelho reiniciar; o comportamento depende do Android.</item>
+        <item>Mantém o reconhecimento do serviço ativo com a tela apagada quando ligado. Desligado por padrão; depende do Android e da câmera.</item>
+        <item>Escolhe o idioma da tela principal e das opções; outras áreas podem não estar traduzidas.</item>
+        <item>Solicita ao Android que ignore a otimização de bateria para este app; você decide na tela do sistema.</item>
+    </string-array>
+</resources>
