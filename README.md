@@ -48,7 +48,7 @@ O [APK debug está disponível na pré-release pública](https://github.com/Nino
 
 A reconstrução privada consultada usa Java 11 no workflow, Gradle 7.3.3, Android Gradle Plugin 7.2.2, `compileSdk` 33, `minSdk` 21, `targetSdk` 33 e build-tools 30.0.3. Essas informações descrevem a reconstrução, **não** uma receita de build validada para este repositório. Compilação, instalação e funcionamento de uma distribuição limpa ainda precisam ser testados.
 
-O código espera o modelo `app/src/main/assets/mobile_face_net.tflite`. A procedência e os termos de redistribuição dos pesos ainda estão em revisão, portanto não há modelo disponibilizado aqui. Sem um modelo compatível, o reconhecimento não funciona; o comportamento da aplicação sem o arquivo também não foi validado em todos os caminhos. A compatibilidade real de qualquer substituto precisa ser verificada, inclusive com cadastros existentes.
+O código espera o modelo `app/src/main/assets/mobile_face_net.tflite`. O arquivo não está presente na pasta de código reconstruído, mas está incluído no APK da pré-release pública. A origem e os termos de redistribuição dos pesos exatos ainda não foram confirmados, embora Atharva tenha autorizado a publicação da versão modificada com os créditos apropriados. Sem um modelo compatível, o reconhecimento não funciona; o comportamento da aplicação sem o arquivo também não foi validado em todos os caminhos. A compatibilidade real de qualquer substituto precisa ser verificada, inclusive com cadastros existentes.
 
 ## Cadastros e backup
 
