@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atharvakale.facerecognition">
+
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application
+        android:name=".GoldenApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/face_icon2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/face_icon2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FaceRecognition.NoActionBar">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".GuidedEnrollmentActivity" android:label="@string/golden_guided_entry_label" android:exported="true" />
+        <receiver android:name=".BootResumeReceiver" android:exported="true"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED" /></intent-filter></receiver>
+        <service android:name=".FaceCameraService" android:exported="false" android:foregroundServiceType="camera" />
+        <activity
+            android:name=".splash_screen"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FaceRecognition.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+
+</manifest>
