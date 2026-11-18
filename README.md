@@ -38,6 +38,10 @@ Capturas reais da interface da variante integrada em revisão:
 
 <img src="capturas/05-backup-restauracao.jpg" alt="Opções de backup e restauração" width="240">
 
+**Cadastro guiado** — tela de cadastro guiado de rosto.
+
+<img src="capturas/06-cadastro-guiado.jpg" alt="Cadastro guiado de rosto no Golden Face" width="240">
+
 ## Instalação e compilação
 
 Ainda não há APK ou árvore Android completa disponíveis neste repositório, nem um procedimento de compilação pública verificado. Portanto, não há link de instalação ou comando de build a fornecer por enquanto.
