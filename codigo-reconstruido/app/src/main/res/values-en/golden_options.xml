@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="gf_language">Language</string>
+    <string name="gf_cancel">Cancel</string>
+    <string name="gf_toggle_help">Show or hide explanations</string>
+    <string name="gf_options_title">Options</string>
+    <string name="gf_camera_off">Golden: stop background camera</string>
+    <string name="gf_camera_on">Golden: start background camera</string>
+    <string name="gf_camera_choice">Golden: background camera (%1$s)</string>
+    <string name="gf_front">front</string>
+    <string name="gf_back">back</string>
+    <string-array name="gf_options">
+        <item>View registered faces</item>
+        <item>Update face list</item>
+        <item>Save faces</item>
+        <item>Load faces</item>
+        <item>Delete all faces</item>
+        <item>Register or import photo</item>
+        <item>Recognition parameters</item>
+        <item>Developer mode</item>
+        <item>Golden: floating windows</item>
+        <item>Background camera</item>
+        <item>Restart enrollment preview</item>
+        <item>Choose background camera</item>
+        <item>Delete selected faces</item>
+        <item>Resume after restart</item>
+        <item>Continue with screen off</item>
+        <item>Language</item>
+        <item>Disable battery optimization</item>
+    </string-array>
+    <string-array name="gf_option_help">
+        <item>Shows the names currently loaded.</item>
+        <item>Choose which faces remain in the loaded list.</item>
+        <item>Saves loaded faces to app storage.</item>
+        <item>Loads saved faces from app storage.</item>
+        <item>Deletes all registered faces after confirmation.</item>
+        <item>Opens guided enrollment using a camera or gallery photo.</item>
+        <item>Adjusts the distance threshold used for recognition.</item>
+        <item>Shows extra information for tuning recognition.</item>
+        <item>Configure recognized names in a floating window.</item>
+        <item>Starts or stops the background camera.</item>
+        <item>Restarts preview while the background camera is stopped.</item>
+        <item>Choose the front or back camera for the service.</item>
+        <item>Choose which registered faces to delete.</item>
+        <item>Configure resuming after a device restart; behavior depends on Android.</item>
+        <item>Keeps the service recognition active with the screen off when enabled. Off by default; depends on Android and the camera.</item>
+        <item>Choose the main screen and options language; other areas may not be translated.</item>
+        <item>Asks Android to ignore battery optimization for this app; you decide in the system dialog.</item>
+    </string-array>
+</resources>
