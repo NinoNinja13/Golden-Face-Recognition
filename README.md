@@ -2,7 +2,7 @@
 
 Golden Face Recognitions é uma adaptação Android de reconhecimento facial local, criada para integrar rostos cadastrados à Golden e permitir automações com o MacroDroid. É uma versão modificada do projeto [Real-Time Face Recognition Android](https://github.com/atharvakale31/Real-Time_Face_Recognition_Android), não um aplicativo criado do zero.
 
-> **Projeto em preparação:** por enquanto, este repositório contém documentação; o código e o aplicativo ainda não foram disponibilizados aqui. As informações abaixo descrevem a variante integrada em revisão, e não garantem uma versão de instalação pronta.
+> **Projeto em preparação:** há um APK debug em [pré-release pública](https://github.com/NinoNinja13/Golden-Face-Recognition/releases/tag/GoldenFaceRecognitions) e [código reconstruído](codigo-reconstruido/) disponível para inspeção. A equivalência do código ao APK não foi comprovada; a reconstrução não é um projeto completo nem tem compilação validada.
 
 ## O que a variante integrada oferece
 
@@ -44,7 +44,7 @@ Capturas reais da interface da variante integrada em revisão:
 
 ## Instalação e compilação
 
-Ainda não há APK ou árvore Android completa disponíveis neste repositório, nem um procedimento de compilação pública verificado. Portanto, não há link de instalação ou comando de build a fornecer por enquanto.
+O [APK debug está disponível na pré-release pública](https://github.com/NinoNinja13/Golden-Face-Recognition/releases/tag/GoldenFaceRecognitions). O [código reconstruído](codigo-reconstruido/) está disponível para inspeção, mas não é uma árvore Android completa e sua equivalência ao APK não foi comprovada. Faltam o modelo, imagens PNG e `gradle/wrapper/gradle-wrapper.jar`; não há procedimento de compilação validado.
 
 A reconstrução privada consultada usa Java 11 no workflow, Gradle 7.3.3, Android Gradle Plugin 7.2.2, `compileSdk` 33, `minSdk` 21, `targetSdk` 33 e build-tools 30.0.3. Essas informações descrevem a reconstrução, **não** uma receita de build validada para este repositório. Compilação, instalação e funcionamento de uma distribuição limpa ainda precisam ser testados.
 
