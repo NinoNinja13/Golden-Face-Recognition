@@ -14,6 +14,30 @@ Golden Face Recognitions é uma adaptação Android de reconhecimento facial loc
 
 A proposta é processar o reconhecimento localmente. A disponibilidade offline em todas as combinações de aparelho e dependências ainda precisa ser verificada. Restrições de câmera, notificações e segundo plano variam conforme o Android.
 
+## Capturas de tela
+
+Capturas reais da interface da variante integrada em revisão:
+
+**Tela principal** — acesso à câmera e ao cadastro de rostos.
+
+<img src="capturas/01-tela-principal.jpg" alt="Tela principal do Golden Face" width="240">
+
+**Idioma** — seleção entre português brasileiro e inglês.
+
+<img src="capturas/02-idioma.jpg" alt="Seleção de idioma" width="240">
+
+**Opções** — controles de cadastros e reconhecimento.
+
+<img src="capturas/03-opcoes.jpg" alt="Opções de rostos cadastrados e reconhecimento" width="240">
+
+**Câmera em segundo plano** — opções de câmera e funcionamento em segundo plano.
+
+<img src="capturas/04-camera-segundo-plano.jpg" alt="Opções da câmera em segundo plano" width="240">
+
+**Backup e restauração** — opções para exportar e restaurar backup.
+
+<img src="capturas/05-backup-restauracao.jpg" alt="Opções de backup e restauração" width="240">
+
 ## Instalação e compilação
 
 Ainda não há APK ou árvore Android completa disponíveis neste repositório, nem um procedimento de compilação pública verificado. Portanto, não há link de instalação ou comando de build a fornecer por enquanto.
